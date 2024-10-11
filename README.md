@@ -1,10 +1,15 @@
-# Reauirements
+<div style="text-align: center;">
+ # PART-1
+</div>
+
+
+## Reauirements
  - Python
  - Relational Database
 
 
 
- # Django Fundamentals
+ ## Django Fundamentals
 
  - Introduction to Django
  - Fundamental of web development
@@ -13,14 +18,14 @@
  - 2 seasonal debugging techniques
 
 
-## What is Django?
+### What is Django?
 - Free and open-source framework for building web apps with Python. It's not the only one but a most famous one
 
 - Companies using Django
   - youtube, Instagram, Spotify, dropbox
 
 
-## Django features
+### Django features
  - The admin site: Managing our data
  - Object-relational mapper (ORM): abstract database
  - Authentication: for identifying users
@@ -41,7 +46,7 @@ to get or save various pieces of data. For example, we  provide one endpoint to 
 client use to talk to the server. In technical terms, we say that the server provides an API (application interface programming). So our focus is to build an API using Django
 
 
-## Setting up the development Environment
+### Setting up the development Environment
 
 - Download the latest version of Python
 
@@ -49,7 +54,7 @@ client use to talk to the server. In technical terms, we say that the server pro
 
        - pip install pipenv
 
-  # Creating the first Django project
+  ## Creating the first Django project
 
 - create a Django project by typing the following command
 
@@ -86,7 +91,7 @@ but settings are not configured. You must either define the environment variable
 "python manage.py run server port number" we can set the port number optionally. By default, it takes 8000. if another application is running using this default we should give a new port number.
 if we run it we will get something like "Starting development server at http://127.0.0.1:8000/". If we run the https address in the browser we will get our application. compy paste onbly 127.0.0.1:8000/ to the browser.
 
-# Creating the first app
+## Creating the first app
 
 Each Django project is a collection of various apps each providing certain functionality. In the settings module there are several apps that are default namely,
 
@@ -110,7 +115,7 @@ inside the settings.py of the main project.
 
 
 
-# Writing views : 
+## Writing views : 
 
 we already know that every data exchange between client and server requires a request and a response, this is where we use **views** in Django. it receives a request and returns a response, so it can be called
 a request handler.
@@ -118,22 +123,22 @@ a request handler.
 - we need to map each view to a URL, so using the URL this view can be called
 
 
-# Mapping URL to views
+## Mapping URL to views
 
 we need to create a URLS in the app folder, and also add that URL in the main project URL section
 
 
-# Using templates
+## Using templates
 
 templates are used to return html content to the users. For using templates we need to create a folder inside the app folder, here inside the playground we create a template folder and inside it, 
 we create a hello.html file which is a template. We need to create URLs in the view for each template.
 
-# Debuging toolbar
+## Debuging toolbar
 
 Go to the following link and follow the instructions
 link: https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
 
-# Models 
+## Models 
 
 - are used to store and retrieve data
 
@@ -143,7 +148,7 @@ What will we learn?
   - organizing models in apps
   - Coding model classes
 
-## Introduction to data modeling
+### Introduction to data modeling
   
 
 
